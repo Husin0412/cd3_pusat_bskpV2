@@ -1,0 +1,35 @@
+@media screen and (max-width:880px) {
+    /* start header */
+    .header {
+        background-color: #1d233b;
+        width: 100%;
+        padding: 1% 2%;
+    }
+
+
+    .form-search {
+        width: 100%;
+        max-width: 225px;
+    }
+
+    .header-ul {
+        padding: 0;
+    }
+
+    a {
+        padding: 10px 1px;
+    }
+    /* end header */
+    /* start footer */
+    .DescripWeb{
+        padding: 10px 0;
+    }
+    .aboutUs ul{
+        padding: 0;
+        width: 59%;
+    }
+    .copyright{
+        padding-left: 0;
+    }
+    /* end footer */
+}

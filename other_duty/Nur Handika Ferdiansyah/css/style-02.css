@@ -1,0 +1,60 @@
+@media screen and (max-width:1040px) {
+
+    /* start header */
+    .header {
+        width: 100%;
+        padding: 1% 2%;
+    }
+
+    .form-search {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    a {
+        padding: 10px 5px;
+    }
+
+    /* end header */
+    /* start body */
+
+    .container {
+        width: 850px;
+    }
+
+    .container-gallery {
+        max-width: 655px;
+    }
+
+    .gallery {
+        width: 210px;
+    }
+
+    .gallery img {
+        width: 100%;
+        height: auto;
+    }
+
+    .desc {
+        padding: 2px 0;
+    }
+
+    .title h3 {
+        font-size: medium;
+    }
+
+    .populer {
+        width: 180px;
+    }
+
+    .desc-populer span {
+        font-weight: bold;
+    }
+
+    aside {
+        width: 22%;
+    }
+
+    /* end body */
+    /* end footer */
+}

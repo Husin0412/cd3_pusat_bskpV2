@@ -1,0 +1,17 @@
+user-scalable=no, no for zom window
+320px - ke bawah => mobile
+768px - 321px
+1024px - 769px
+1440px - 1025px
+
+display: plex
+flex-direction: row
+flex-wrap:
+justify-content:
+align-item:
+
+box-sizing:
+order:
+flex-grow:
+flex-shrink:
+align-self:

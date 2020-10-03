@@ -1,0 +1,481 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body {
+	font-family: "Segoe UI";
+}
+
+
+/* Css For Header */
+
+nav {
+	background: #1d233b;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	list-style: none;
+	text-decoration: none;
+}
+
+a.logo {
+	line-height: 100px;
+	padding: 0 20px;
+	vertical-align: middle;
+}
+
+.form-search {
+	width: 100%;
+	max-width: 400px;
+	position: relative;
+	/* margin-right: 30px; */
+	display: inline-block;
+	vertical-align: middle;
+}
+
+input {
+	width: 100%;
+	background: #484d61;
+	border: 2px solid white;
+	outline: none;
+	font-family: "Segoe UI", arial;
+	font-size: 14px;
+	padding: 10px 30px;
+	border-radius: 50px;
+	color: white;
+	/* display: inline; */
+}
+
+button {
+	position: absolute;
+	right: 0;
+	padding: 0 15px;
+	width: auto;
+	height: 100%;
+	outline: none;
+	color: white;
+	background: transparent;
+	border: none;
+}
+
+#input-search::placeholder {
+	color: #dbdbdb;
+	font-style: italic;
+}
+
+#logo-pusatbioskop {
+	/* margin-top: 25px; */
+	margin-left: 100px;
+	max-width: 125px;
+	max-height: 40px;
+	vertical-align: middle;
+}
+
+nav ul {
+	display: inline;
+	margin-right: 40px;
+	vertical-align: middle;
+}
+
+nav ul li {
+	display: inline-block;
+	line-height: 100px;
+	margin: 0 5px;
+}
+
+nav ul li a {
+	color: white;
+	font-size: 16px;
+	padding: 25px 16px;
+	border-radius: 3px;
+	font-weight: 600;
+}
+
+nav .menu-icon {
+	width: 40px;
+	text-align: center;
+	margin: 0 50px;
+	font-size: 18px;
+	color: #fff;
+	cursor: pointer;
+	display: none;
+}
+
+
+
+/* End Css For Header */
+
+
+/* Css For Breadcumb*/
+
+.breadcumb {
+	margin: 0 337px;
+	padding-top: 120px;
+	padding-bottom: 10px;
+}
+
+#breadcumb-title {
+	color: #666666;
+	font-size: 12px;
+	padding-top: 10px;
+}
+
+.breadcumb h2 {
+	font-size: 20px;
+	font-weight: 400;
+	color: #1d233b;
+	display: inline;
+}
+
+#title-2 {
+	margin-right: 612px;
+}
+
+
+/* End Css For Sidebar */
+
+
+/* Css For Content */
+
+.row {
+	margin: 0 200px;
+	/*padding-top: 120px;*/
+	padding-top: 10px;
+	padding-bottom: 25px;
+}
+
+.column {
+	float: left;
+	width: 150px;
+	padding: 10px;
+	height: 700px;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#populer {
+	background-color: #1d233b;
+	width: 228px;
+	height: auto;
+	margin: auto;
+	padding: 10px;
+	overflow: hidden;
+	display: inline-block;
+	border-radius: 8px;
+	margin-right: 70px;
+}
+
+/* @media (min-width: 1118px) and (max-width: 1638px){
+	#populer{
+		width: 203px;
+	}
+} */
+
+.box-office {
+	margin-left: 123px;
+	width: 842px;
+	padding-top: 0px;
+}
+
+.img-content-wraper1 {
+	padding-top: 10px;
+	/* padding-bottom: 10px; */
+	width: 250px;
+	height: 100px;
+}
+
+.img-content1 {
+	width: 100%;
+	border-radius: 8px
+}
+
+.content-wraper-box {
+	padding: 10px;
+}
+
+.populer-content {
+	background-color: white;
+	width: 100%;
+	border-radius: 8px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.content-information-container {
+	padding: 10px 10px 15px 10px;
+	padding-left: 0px
+}
+
+.content-information-container-populer {
+	padding: 5px 10px 15px 10px;
+}
+
+.content-information {
+	font-size: 10px;
+	color: #adadad;
+	margin-bottom: 10px;
+}
+
+.post-title {
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 18px;
+	margin: 0;
+}
+
+.post-title-populer {
+	font-size: 14px;
+	font-weight: 700;
+	font-style: bold;
+	line-height: 18px;
+	margin: 0;
+}
+
+.kategori-boxoffice {
+	background: #1d233b;
+	color: white;
+	padding: 6px 10px;
+	border-radius: 4px;
+}
+
+.kategori {
+	color: black;
+}
+
+.title-container {
+	font-size: 14px;
+	/* font-weight: 100px; */
+}
+
+.title-boxoffice {
+	color: black;
+}
+
+div.gallery {
+	margin: 5px;
+	/*border: 1px solid #ccc;*/
+	margin-right: 69px;
+	float: left;
+	width: 200px;
+}
+
+div.gallery img {
+	width: 265px;
+	height: 178px;
+	/*border: 10px solid white;*/
+	padding: 0;
+}
+
+div.populer-content img {
+	width: 100%;
+	height: 116px;
+	/*border: 10px solid white;*/
+	padding: 0;
+}
+
+div.desc {
+	padding: 15px;
+	text-align: center;
+}
+
+.pagination {
+	margin: 0 335px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	display: inline-block;
+}
+
+.link-pagination {
+	padding: 11px 4px;
+	font-size: 18px;
+	font-weight: 700;
+	color: #333333;
+	line-height: 0px;
+	display: inline-block;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+.pagination a.active{
+	border-radius: 50%;
+	background-color: #1d233b;
+	color: white;
+}
+
+
+/* End Css For Content */
+
+
+/* Css For Footer */
+
+.footer-1 {
+	background: #1d233b;
+	height: 104px;
+	width: 100%;
+	/* text-align: center;
+	position: relative;
+	list-style: none;
+	text-decoration: none; */
+}
+
+.footer-container-1 {
+	margin: 0 200px;
+	display: inline=block;
+	/*padding-top: 120px;*/
+	padding-top: 10px;
+	/* padding-bottom: 100px; */
+}
+
+.text-footer {
+	color: white;
+	display: inline-block;
+	vertical-align: middle;
+	width: 44%;
+	padding-top: 0px;
+}
+
+.footer-2 {
+	background-color: #0d1121;
+	width: 100%;
+	position: relative;
+	height: 46px;
+	color: white;
+	font-family: "Segoe UI";
+	font-size: 12px;
+	padding-top: 15px;
+	/* text-align: center; */
+}
+
+.social-media {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 234px;
+}
+
+.logo-social-media {
+	max-width: 35px;
+	max-height: 35px;
+	padding: 5px;
+}
+
+.left-footer {
+	margin-left: 325px;
+}
+
+.left-footer li {
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.left-footer li:not(.copyright):before {
+	content: "• ";
+}
+
+.copyright {
+	float: right;
+	margin-right: 257px;
+}
+
+
+/* Css End For Footer */
+
+@media (min-width: 1118px) {
+	.form-search {
+		width: 378px;
+	}
+	nav {
+		background: #1d233b;
+		height: auto;
+		width: 100%;
+		/* text-align: center;
+		position: absolute;
+		list-style: none;
+		text-decoration: none; */
+	}
+	#logo-pusatbioskop {
+		/* max-width: 125px; */
+		max-height: 40px;
+		/*vertical-align: middle;*/
+	}
+}
+
+@media (max-width: 980px) {
+	nav .menu-icon {
+		display: inline;
+		padding: 0 20px;
+		vertical-align: middle;
+	}
+	.form-search {
+		width: 100%;
+	}
+	nav ul {
+		display: none;
+	}
+	nav {
+		background: #1d233b;
+		height: auto;
+		width: 100%;
+		/* text-align: center;
+		position: absolute;
+		list-style: none;
+		text-decoration: none; */
+	}
+	#logo-pusatbioskop {
+		/* max-width: 125px; */
+		max-height: 40px;
+		/*vertical-align: middle;*/
+	}
+}
+
+@media (max-width: 860px) {
+	.form-search {
+		width: 300px;
+	}
+	/* nav ul{
+		display: none;
+	} */
+	nav {
+		background: #1d233b;
+		height: auto;
+		width: 100%;
+		/* text-align: center;
+		position: absolute;
+		list-style: none;
+		text-decoration: none; */
+	}
+	#logo-pusatbioskop {
+		/* max-width: 125px; */
+		max-height: 40px;
+		/*vertical-align: middle;*/
+	}
+}
+@media (min-width:600px) and (max-width: 860px){
+	.form-search {
+		display: none;
+	}
+}
+@media (min-width:480px) and (max-width: 599px){
+	.form-search {
+		display: none;
+	}
+}
+
+@media (min-width:320px) and (max-width: 479px) {
+	.form-search {
+		display: none;
+	}
+	#logo-pusatbioskop {
+		/* max-width: 125px; */
+		margin-left: 10px;
+		max-height: 40px;
+		/*vertical-align: middle;*/
+	}
+}

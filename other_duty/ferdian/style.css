@@ -1,0 +1,571 @@
+/* NAVBAR */
+.navbar{
+  width: auto;
+  background-color: #1d233b!important;
+}
+
+/* UTILITY */
+.search{
+  background-color: #484d61!important;
+  color: white !important;
+  border-radius: 100px;
+  margin-left: 20px
+}
+
+/* HEADER */
+.header{
+  background-color: #1d233b;
+}
+
+.breadcrumb{
+  background-color: #ffff!important;
+  padding: 0;
+  text-align: left;
+  font-size: 15px
+}
+
+.boxofficedipusat{
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.boxofficedipusat span{
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 10px;
+  font-size: 25px;
+}
+.mainboxoffice{
+
+}
+
+
+
+  .footerbioskop{
+    background-color: #1d233b!important;
+  }
+
+  .footer p{
+    color:white;
+  }
+
+  .forfooter{
+    display: inline-block;
+    width: 100%;
+    padding-top: 20px;
+  }
+  .pfooter{
+    color: white;
+  }
+  .forpagination{
+    display: inline-block;
+    margin-top: 25px;
+    height: 100px;
+  }
+
+  .pagination{
+    display: unset!important;
+    padding: 7px;
+    color: #1d233b;
+    font-size: 13px;
+  }
+
+  .act{
+    background-color: #1d233b;
+    color: white;
+    border-radius: 50%;
+  }
+
+  .f-img{
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+  }
+.f-pg{
+  display: inline-block;
+  width: 60%;
+}
+.pgn {
+  font-weight: 700;
+  font-size: 14px;
+  width: 100%;
+  color: #1d233b;
+}
+.ft-lg{
+  width: 100%;
+}
+.ft-fa{
+  display: inline-block;
+  width: 19%;
+  vertical-align: top;
+}
+
+.footerbottom{
+  background-color:  rgb(13,17,33);
+
+}
+
+.ft-bottom p{
+  display: inline-block;
+  color: #ffff;
+}
+
+.ft-pbtm{
+  display: inline-block;
+  width: 59%;
+}
+.ft-cpr{
+  display: inline-block;
+  width: 40%;
+}
+
+  .footercontainers{
+    background-color: #1d233b!important;
+    width: 100%;
+    height: 30%;
+  }
+
+  .footercontainers span{
+    font-size: 15px;
+    color: #ffff;
+  }
+
+  .nyoba1 img{
+    border-radius: 20px;
+    width: 279px;
+    height: 190px;
+  }
+
+  .nyoba1 p{
+    font-size: 13px;
+  }
+
+
+
+  .populer{
+    display: inline-block;
+    width: 31%;
+  }
+
+
+
+  .populer h5{
+    font-size: 10px;
+  }
+
+
+
+.t-pop{
+  display: inline-block;
+  width: 20%;
+}
+.ct-by{
+  display: inline-block;
+  width: 100%;
+}
+
+/* MOBILE VERSION */
+@media (max-width: 576px) {
+
+  .nav-link{
+    color: white!important;
+    font-size: 10px;
+  }
+  .form-inline{
+    display: none;
+  }
+
+  .populer span{
+    text-align: center;
+    width: 69px;
+    height: 18px;
+    font-size: 7px;
+    color: #ffff;
+    background-color: #1d233b;
+  }
+
+  .populer p{
+    font-size: 5px;
+  }
+
+  .populer h5{
+    font-size: 7px;
+  }
+
+  .populer img{
+    display: inline-block;
+    border-radius: 20px;
+    width: 100%;
+    height: 50%
+  }
+
+  .aside-film{
+    display: inline-block;
+    width: 20%;
+  }
+
+  .populer-aside{
+    background-color: #ffff ;
+  }
+
+
+  .populer-aside span{
+    text-align: center;
+    width: 57px;
+    height: 18px;
+    font-size: 5px;
+    color: #ffff;
+    background-color: #1d233b;
+  }
+
+  .populer-aside p{
+    font-size: 5px;
+  }
+
+
+  .main-film{
+    display: inline-block;
+    vertical-align: top;
+    width: 78%;
+  }
+
+  .populer-aside h5{
+    font-size: 7px;
+  }
+
+  .populer-aside img{
+    display: inline-block;
+    border-radius: 20px;
+    width: 100%;
+    height: 50%
+  }
+
+  .boxofficedipusat span{
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 10px;
+    font-size: 10px;
+  }
+
+  .forpagination{
+    display: inline-block;
+    margin-top: 25px;
+    height: 30px;
+  }
+
+
+.breadcrumb{
+  background-color: #ffff!important;
+  margin-bottom: unset;
+  padding: 0;
+  text-align: left;
+  font-size: 9px;
+}
+
+.btnBoxOffice{
+  text-align: center;
+  width: 57px;
+  height: 24px;
+  font-size: 5px
+}
+
+.forfooter{
+  display: inline-block;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.forfooter .f-img{
+  display: inline-block;
+  width: 100%;
+}
+
+.forfooter .f-pg{
+  display: inline-block;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.forfooter .ft-fa{
+  display: inline-block;
+  width: 100%;
+}
+
+.title{
+  display: inline-block;
+  width: 78%;
+}
+
+
+.footerbottom{
+  background-color:  rgb(13,17,33);
+  font-size: 6px;
+  padding: 8px;
+
+}
+
+.footerbioskop{
+  background-color: #1d233b!important;
+  font-size: 10px;
+}
+
+ }
+/* END MOBILEVERSION */
+
+/* DEKSTOP VERSION */
+@media (min-width: 992px) {
+  .navbar{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+
+  }
+
+  .btnBoxOffice{
+    text-align: center;
+    width: 75px;
+    height: 25px;
+    font-size: 10px
+  }
+
+  .title{
+    display: inline-block;
+    width: 78%;
+  }
+
+  .populer img{
+    display: inline-block;
+    border-radius: 20px;
+    width: 100%;
+    width: 100%;
+    height: 50%;
+  }
+
+  .populer{
+    display: inline-block;
+    width: 31%;
+  }
+
+  .populer h5{
+    font-size: 23px;
+  }
+
+  .populer p{
+    font-size: 10px;
+  }
+
+  .populer-aside{
+    background-color: #ffff;
+    border-radius: 20px;
+    margin-left: 4px;
+    width: 97%;
+  }
+
+  .populer-aside h5{
+    font-size: 7px;
+  }
+
+  .populer-aside img{
+    display: inline-block;
+    border-radius: 20px;
+    width: 100%;
+    height: 50%
+  }
+
+  .populer-aside span{
+    text-align: center;
+    width: 57px;
+    height: 18px;
+    font-size: 5px;
+    color: #ffff;
+    background-color: #1d233b;
+  }
+
+  .populer-aside p{
+    font-size: 5px;
+  }
+
+  .mainboxoffice{
+    display: inline-block;
+    width: 100%;
+  }
+
+  .main-film{
+    display: inline-block;
+    vertical-align: top;
+    width: 78%;
+  }
+
+  .aside-film{
+    background-color: #1d233b;
+    border-radius: 20px;
+    display: inline-block;
+    width: 20%;
+  }
+
+  .nav-link{
+    color: #ffff !important;
+    padding: 5px;
+  }
+
+  .search{
+    width: 350px !important;
+  }
+
+  input.search {
+    /* background-image: url('img/search.png'); */
+    background-color:#484d61;
+    color: #050505;
+  }
+
+
+}
+
+/* TABLET VERSION */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  .nav-link{
+    color: white!important;
+    font-size: 10px;
+  }
+
+  .form-inline{
+    display: none;
+  }
+
+  .populer span{
+    text-align: center;
+    width: 69px;
+    height: 18px;
+    font-size: 7px;
+    color: #ffff;
+    background-color: #1d233b;
+  }
+
+  .populer p{
+    font-size: 5px;
+  }
+
+  .populer h5{
+    font-size: 7px;
+  }
+
+  .populer img{
+    display: inline-block;
+    border-radius: 20px;
+    width: 100%;
+    height: 50%
+  }
+
+  .aside-film{
+    display: inline-block;
+    width: 20%;
+  }
+
+  .populer-aside{
+    background-color: #ffff ;
+  }
+
+
+  .populer-aside span{
+    text-align: center;
+    width: 57px;
+    height: 18px;
+    font-size: 5px;
+    color: #ffff;
+    background-color: #1d233b;
+  }
+
+  .populer-aside p{
+    font-size: 5px;
+  }
+
+
+  .main-film{
+    display: inline-block;
+    vertical-align: top;
+    width: 78%;
+  }
+
+  .populer-aside h5{
+    font-size: 7px;
+  }
+
+  .populer-aside img{
+    display: inline-block;
+    border-radius: 20px;
+    width: 100%;
+    height: 50%
+  }
+
+  .boxofficedipusat span{
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 10px;
+    font-size: 10px;
+  }
+
+  .forpagination{
+    display: inline-block;
+    margin-top: 25px;
+    height: 30px;
+  }
+
+
+.breadcrumb{
+  background-color: #ffff!important;
+  margin-bottom: unset;
+  padding: 0;
+  text-align: left;
+  font-size: 9px;
+}
+
+.btnBoxOffice{
+  text-align: center;
+  width: 57px;
+  height: 24px;
+  font-size: 5px
+}
+
+.forfooter{
+  display: inline-block;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.forfooter .f-img{
+  display: inline-block;
+  width: 100%;
+}
+
+.forfooter .f-pg{
+  display: inline-block;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.forfooter .ft-fa{
+  display: inline-block;
+  width: 100%;
+}
+
+.title{
+  display: inline-block;
+  width: 78%;
+}
+
+
+.footerbottom{
+  background-color:  rgb(13,17,33);
+  font-size: 6px;
+  padding: 8px;
+
+}
+
+.footerbioskop{
+  background-color: #1d233b!important;
+  font-size: 10px;
+}
+
+}

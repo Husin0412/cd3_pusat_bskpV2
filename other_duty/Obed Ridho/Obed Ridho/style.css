@@ -1,0 +1,717 @@
+body {
+	margin: 0px;
+}
+/*css header*/
+.container {
+	background: #1d233b;
+	height: 90px;
+}
+.main {
+	display: inline-block;
+	margin: 0;
+	padding: 0 15%;
+}
+.float_navbar{
+	float: left;
+}
+.div_search {
+	margin: 25px 0px 25px 175px;
+}
+.img_logo {
+	position: absolute;
+	margin: 25px auto;
+}
+.ul_navbar {
+	display: inline-block;
+	list-style-type: none;
+	/*margin-left: 110px;*/
+}
+.ul_navbar li {
+	display: inline-block;
+	margin: 15px 25px;
+	height: 30px;
+}
+.responsive_ul {
+	display: none;
+}
+.search {
+	background: url(img/icon_search.png) no-repeat scroll 375px 10px;
+	background-size: 13px; 
+	background-color: #484d61;
+	border: 1px solid white;
+	border-radius: 20px;
+	width: 350px;
+	height: 30px;
+	padding-left: 20px;
+	padding-right: 30px;
+	color: white;
+}
+.search::placeholder {
+	color: white;
+	font-style: italic;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-family: Segoe UI;
+	font-weight: bold;
+}
+
+/*css main content*/
+.container-content {
+	display: block;
+	padding: 1% 15%;
+}
+.container-content p {
+	color: black;
+	font-family: Segoe UI;
+	font-size: 12px;
+}
+.float_content {
+	display: inline-block;
+	vertical-align: top;
+	/*float: left;*/
+}
+.main_menu {
+	width: 950px;
+}
+.main_menu p {
+	font-family: Segoe UI;
+	font-size: 15px;
+}
+.float_box_office {
+	display: inline-block;
+	margin: 10px 5px;
+	width: 275px;
+	height: 270px;
+	overflow: hidden;
+}
+.float_box_office p {
+	font-size: 12px;
+	font-family: Segoe UI;
+}
+.float_box_office p button {
+	color: white;
+	height: 30px;
+	border: 1px solid #1d233b;
+	border-radius: 7px;
+	background-color: #1d233b;
+}
+.float_box_office h4 {
+	height:30px;
+	font-weight: bold;
+	font-family: Segoe UI;
+}
+.side_menu {
+	/*width: 345px;*/
+	width: 285px;
+}
+.side_menu p {
+	font-family: Segoe UI;
+	font-size: 15px;
+}
+.container_side_menu {
+	border: 5px solid #1d233b;
+	border-radius: 15px;
+	background-color: #1d233b;
+}
+.box_side_menu {
+	border: 7px solid #1d233b;
+	border-radius: 15px;
+	background-color: white
+}
+.box_side_menu p {
+	font-family: Segoe UI;
+	font-size: 11px;
+	margin: 10px 5px;
+}
+.box_side_menu h5 {
+	font-family: Segoe UI;
+	margin: 10px 5px;
+}
+.ul_page {
+	padding-left: 0px;
+}
+.float_page_number {
+	display: inline-block;
+	margin: 5px 10px;
+	vertical-align: middle;
+}
+.float_page_number a {
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: Segoe UI;
+	font-size: 18px;
+}
+.active {
+	display: block;
+	background-color: #1d233b;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	border-radius: 50%;
+	position: relative;
+}
+.active span {
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	transform: translate(50%,-50%);
+	color: white;
+}
+
+
+/*css footer*/
+.container-footer {
+	position: relative;
+	bottom: 0;
+	width: 100%;
+}
+.footer-start {
+	background-color: #1d233b;
+	height: 90px;
+	padding: 0 15%;
+}
+.float {
+	margin: 20px auto;
+	float: left;
+	height: 50px;
+}
+.img_footer {
+	padding: 10px 0;
+}
+.paragraf {
+	width: 550px;
+	margin: 0px 20px 0px 50px;
+	color: white;
+	font-weight: normal;
+	font-size: 20px;
+	font-family: Segoe UI;
+}
+.logo_sosmed {
+	position: absolute;
+	right: 15%;
+}
+.sosmed {
+	margin: 15px 5px;
+	float: left;
+}
+.footer-end {
+	background-color: #0d1121;
+	height: 35px;
+	padding: 0 15%;
+}
+.float_footer_end {
+	float: left;
+	color: white;
+	font-size: 10px;
+	font-family: Segoe UI;
+}
+.privacy_policy {
+	position: absolute;
+	left: 15%;
+}
+.ul_footer {
+	padding-left: 0px;
+}
+.ul_footer li {
+	float: left;
+	font-family: Segoe UI;
+	list-style-type: none;
+	margin: 0px 2px;
+}
+.copyright {
+	position: absolute;
+	right: 15%;
+}
+/*@media screen and (max-width: 1770px) {
+	.ul_navbar li {
+		display: inline-block;
+		margin: 15px 25px;
+		height: 30px;
+	}
+}*/
+@media screen and (min-width: 425px) {
+	/*navbar header*/
+	.main {
+		padding: 0 2%;
+	}
+	.div_search {
+	    margin: 25px 0px 25px 130px;
+	}
+	.search {
+		background: url(img/icon_search.png) no-repeat scroll 210px 10px;
+	    background-size: 13px;
+		background-color: #484d61;
+		border: 1px solid white;
+	    border-radius: 20px;
+		width: 190px;
+	    height: 30px;
+		padding-left: 13px;
+		padding-right: 30px;
+	    color: white;
+	}
+	.ul_navbar {
+		display: none;
+	}
+	.responsive_ul {
+		display: block;
+		margin: 30px 0px 30px 60px;
+		position: absolute;
+		right: 3%;
+	}
+	.responsive_ul a {
+		color: white;
+		font-size: 25px;
+	}
+
+	/*main content*/
+	.container-content {
+		display: block;
+		padding: 1% 15%;
+	}
+	.main_menu {
+		width: 350px;
+	}
+	.side_menu {
+		width: 285px;
+	}
+	.container_side_menu {
+		display: block;
+		width: unset;
+		border: 5px solid #1d233b;
+	    border-radius: 15px;
+	    background-color: #1d233b;
+	}
+	.box_side_menu {
+		display: block;
+		margin: unset;
+		border: 7px solid #1d233b;
+	    border-radius: 15px;
+	    background-color: white;
+	    width: unset;
+	}
+
+	/*navbar footer*/
+	.footer-start {
+		background-color: #1d233b;
+		height: 90px;
+		padding: 0 5%;
+	}
+	.paragraf {
+		display: none;
+	    width: 420px;
+	    margin: 0px 10px 0px 10px;
+	    color: white;
+	    font-weight: normal;
+	    font-size: 18px;
+	    font-family: Segoe UI;
+	}
+	.logo_sosmed {
+		position: absolute;
+		right: 5%;
+	}
+	.footer-end {
+		background-color: #0d1121;
+		height: 35px;
+		padding: 0 5%;
+	}
+	.privacy_policy {
+		position: absolute;
+		left: 5%;
+	}
+	.copyright {
+		display: none;
+		position: absolute;
+		right: 5%;
+	}
+}
+@media screen and (min-width: 768px) {
+	/*navbar header*/
+	.main {
+		padding: 0 5%;
+	}
+	.div_search {
+	    margin: 25px 0px 25px 175px;
+	}
+	.search {
+	    background: url(img/icon_search.png) no-repeat scroll 375px 10px;
+	    background-size: 13px;
+	    background-color: #484d61;
+	    border: 1px solid white;
+	    border-radius: 20px;
+	    width: 350px;
+	    height: 30px;
+	    padding-left: 20px;
+	    padding-right: 30px;
+	    color: white;
+	}
+	.ul_navbar {
+		display: none;
+	}
+	.responsive_ul {
+		display: block;
+		margin: 30px 0px 30px 60px;
+		position: absolute;
+		right: 10%;
+	}
+	.responsive_ul a {
+		color: white;
+		font-size: 25px;
+	}
+
+	/*main content*/
+	.container-content {
+		display: block;
+		padding: 1% 10%;
+	}
+	.main_menu {
+		width: 575px;
+	}
+	.side_menu {
+		width: 575px;
+	}
+	.container_side_menu {
+		display: inline-block;
+		width: 556px;
+		border: 0px solid #1d233b;
+		border-radius: 15px;
+		background-color: transparent;
+	}
+	.box_side_menu {
+	    display: inline-block;
+	    margin: 2px 0px;
+	    border: 7px solid #1d233b;
+	    border-radius: 15px;
+	    background-color: white;
+	    width: 262px;
+	}
+
+	/*navbar footer*/
+	.footer-start {
+		background-color: #1d233b;
+		height: 90px;
+		padding: 0 5%;
+	}
+	.paragraf {
+		display: block;
+	    width: 420px;
+	    margin: 0px 10px 0px 10px;
+	    color: white;
+	    font-weight: normal;
+	    font-size: 18px;
+	    font-family: Segoe UI;
+	}
+	.logo_sosmed {
+		position: absolute;
+		right: 5%;
+	}
+	.footer-end {
+		background-color: #0d1121;
+		height: 35px;
+		padding: 0 5%;
+	}
+	.privacy_policy {
+		position: absolute;
+		left: 5%;
+	}
+	.copyright {
+		display: block;
+		position: absolute;
+		right: 5%;
+	}
+}
+@media screen and (min-width: 1024px) {
+	/*navbar header*/
+	.main {
+		padding: 0 10%;
+	}
+	.div_search {
+		margin: 25px 0px 25px 240px;
+	}
+	.search {
+	    background: url(img/icon_search.png) no-repeat scroll 375px 10px;
+	    background-size: 13px;
+	    background-color: #484d61;
+	    border: 1px solid white;
+	    border-radius: 20px;
+	    width: 350px;
+	    height: 30px;
+	    padding-left: 20px;
+	    padding-right: 30px;
+	    color: white;
+	}
+	.ul_navbar {
+		display: none;
+	}
+	.responsive_ul {
+		display: block;
+		margin: 30px 0px 30px 60px;
+		position: absolute;
+		right: 15%;
+	}
+	.responsive_ul a {
+		color: white;
+		font-size: 25px;
+	}
+
+	/*main content*/
+	.container-content {
+		display: block;
+		padding: 1% 7%;
+	}
+	.main_menu {
+		width: 575px;
+	}
+	.side_menu {
+		width: 285px;
+	}
+	.container_side_menu {
+		display: block;
+		width: unset;
+		border: 5px solid #1d233b;
+	    border-radius: 15px;
+	    background-color: #1d233b;
+	}
+	.box_side_menu {
+		display: block;
+		margin: unset;
+		border: 7px solid #1d233b;
+	    border-radius: 15px;
+	    background-color: white;
+	    width: unset;
+	}
+
+	/*navbar footer*/
+	.footer-start {
+		background-color: #1d233b;
+		height: 90px;
+		padding: 0 10%;
+	}
+	.paragraf {
+		display: block;
+	    width: 540px;
+	    margin: 0px 20px 0px 20px;
+	    color: white;
+	    font-weight: normal;
+	    font-size: 20px;
+	    font-family: Segoe UI;
+	}
+	.logo_sosmed {
+		position: absolute;
+		right: 10%;
+	}
+	.footer-end {
+		background-color: #0d1121;
+		height: 35px;
+		padding: 0 10%;
+	}
+	.privacy_policy {
+		position: absolute;
+		left: 10%;
+	}
+	.copyright {
+		display: block;
+		position: absolute;
+		right: 10%;
+	}
+}
+@media screen and (min-width: 1440px) {
+	/*navbar header*/
+	.main {
+		padding: 0 10%;
+	}
+	.div_search {
+	    margin: 25px 0px 25px 160px;
+	}
+	.search {
+	    background: url(img/icon_search.png) no-repeat scroll 375px 10px;
+	    background-size: 13px;
+	    background-color: #484d61;
+	    border: 1px solid white;
+	    border-radius: 20px;
+	    width: 350px;
+	    height: 30px;
+	    padding-left: 20px;
+	    padding-right: 30px;
+	    color: white;
+	}
+	.ul_navbar {
+		display: inline-block;
+		list-style-type: none;
+		position: absolute;
+		right: 10%;
+	}
+	.ul_navbar li {
+		display: inline-block;
+		margin: 15px 19px;
+		height: 30px;
+	}
+	.responsive_ul {
+		display: none;
+	}
+
+	/*main content*/
+	.container-content {
+		display: block;
+		padding: 1% 10%;
+	}
+	.main_menu {
+		width: 863px;
+	}
+	.side_menu {
+		position: absolute;
+		right: 10%;
+		width: 285px;
+	}
+	.container_side_menu {
+		display: block;
+		width: unset;
+		border: 5px solid #1d233b;
+	    border-radius: 15px;
+	    background-color: #1d233b;
+	}
+	.box_side_menu {
+		display: block;
+		margin: unset;
+		border: 7px solid #1d233b;
+	    border-radius: 15px;
+	    background-color: white;
+	    width: unset;
+	}
+
+	/*navbar footer*/
+	.footer-start {
+		background-color: #1d233b;
+		height: 90px;
+		padding: 0 10%;
+	}
+	.paragraf {
+		display: block;
+	    width: 540px;
+	    margin: 0px 20px 0px 20px;
+	    color: white;
+	    font-weight: normal;
+	    font-size: 20px;
+	    font-family: Segoe UI;
+	}
+	.logo_sosmed {
+		position: absolute;
+		right: 10%;
+	}
+	.footer-end {
+		background-color: #0d1121;
+		height: 35px;
+		padding: 0 10%;
+	}
+	.privacy_policy {
+		position: absolute;
+		left: 10%;
+	}
+	.copyright {
+		display: block;
+		position: absolute;
+		right: 10%;
+	}
+}
+@media screen and (min-width: 1700px) {
+	/*navbar header*/
+	.main {
+		padding: 0 15%;
+	}
+	.div_search {
+	    margin: 25px 0px 25px 160px;
+	}
+	.search {
+	    background: url(img/icon_search.png) no-repeat scroll 375px 10px;
+	    background-size: 13px;
+	    background-color: #484d61;
+	    border: 1px solid white;
+	    border-radius: 20px;
+	    width: 350px;
+	    height: 30px;
+	    padding-left: 20px;
+	    padding-right: 30px;
+	    color: white;
+	}
+	.ul_navbar {
+		display: inline-block;
+		list-style-type: none;
+		position: absolute;
+		right: 15%;
+	}
+	.ul_navbar li {
+		display: inline-block;
+		margin: 15px 19px;
+		height: 30px;
+	}
+	.responsive_ul {
+		display: none;
+	}
+
+	/*main content*/
+	.container-content {
+		display: block;
+		padding: 1% 15%;
+	}
+	.main_menu {
+		width: 863px;
+	}
+	.side_menu {
+		position: absolute;
+		right: 15%;
+		width: 285px;
+	}
+	.container_side_menu {
+		display: block;
+		width: unset;
+		border: 5px solid #1d233b;
+	    border-radius: 15px;
+	    background-color: #1d233b;
+	}
+	.box_side_menu {
+		display: block;
+		margin: unset;
+		border: 7px solid #1d233b;
+	    border-radius: 15px;
+	    background-color: white;
+	    width: unset;
+	}
+
+	/*navbar footer*/
+	.footer-start {
+		background-color: #1d233b;
+		height: 90px;
+		padding: 0 15%;
+	}
+	.paragraf {
+		display: block;
+	    width: 540px;
+	    margin: 0px 20px 0px 20px;
+	    color: white;
+	    font-weight: normal;
+	    font-size: 20px;
+	    font-family: Segoe UI;
+	}
+	.logo_sosmed {
+		position: absolute;
+		right: 15%;
+	}
+	.footer-end {
+		background-color: #0d1121;
+		height: 35px;
+		padding: 0 15%;
+	}
+	.privacy_policy {
+		position: absolute;
+		left: 15%;
+	}
+	.copyright {
+		display: block;
+		position: absolute;
+		right: 15%;
+	}
+}
